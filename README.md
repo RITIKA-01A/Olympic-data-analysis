@@ -1,68 +1,92 @@
-# 🏅 Olympic Data Analysis
+<h1 align="center">🏅 Olympic Data Analysis</h1>
 
-Welcome to **Olympic Data Analysis**, an interactive Streamlit web application that dives deep into 120 years of Olympic Games data! Explore medal counts, athlete trends, country-wise performance, and much more with beautiful visualizations and interactive filters.
-
-🌐 **Live Demo**: [olympic-data-analysiss.streamlit.app](https://olympic-data-analysiss.streamlit.app/)
-
----
-
-## 📌 Features
-
-✅ Year-wise and country-wise medal tally  
-✅ Country performance trend visualizations  
-✅ Top athletes by sport  
-✅ Age and gender distribution analysis  
-✅ Clean, responsive UI built with Streamlit  
-✅ Powered by Pandas, Plotly & Matplotlib  
+<p align="center">
+  <a href="https://olympic-data-analysiss.streamlit.app/"><strong>🔗 Live Demo</strong></a> •
+  <a href="https://github.com/RITIKA-01A/Olympic-data-analysis"><strong>📂 Source Code</strong></a>
+</p>
 
 ---
 
-## 📁 Folder Structure
+## 📌 Overview
 
-Olympic-data-analysis/
-├── .gitignore
-├── README.md
+**Olympic Data Analysis** is an interactive web app built using **Streamlit** that lets users explore over 120 years of Olympic data. From country-wise medal tallies to athlete trends and age distributions, this app visualizes it all in an intuitive, responsive interface.
+
+---
+
+## 🎯 Features
+
+- 🏆 Medal tally by year and country  
+- 🌍 Country-wise performance analysis  
+- 🧑‍🤝‍🧑 Top athletes by sport and event  
+- 📊 Age and gender distribution of medalists  
+- 📈 Trend analysis with clean visualizations  
+- ⚡ Built with Streamlit, Plotly, Matplotlib, and Pandas  
+
+---
+
+## 📁 Project Structure
+
+📦 Olympic-data-analysis/
 ├── app.py # 🚀 Main Streamlit app
-├── athlete_events.csv # 📊 Dataset: Athletes & Events
-├── helper.py # 🔧 Visualization helpers
-├── noc_regions.csv # 🌍 Dataset: Country/NOC codes
-├── preprocessor.py # 🧹 Data cleaning/prep
-└── requirements.txt # 📦 Dependencies
 
+├── athlete_events.csv # 📊 Primary dataset
+
+├── noc_regions.csv # 🌍 NOC codes dataset
+
+├── helper.py # 🔧 Visualization helpers
+
+├── preprocessor.py # 🧹 Data preprocessing
+
+├── requirements.txt # 📦 Dependencies
+
+└── README.md # 📘 Documentation
 
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
+🚀 Getting Started
+Follow the steps below to set up and run the project locally.
+---
+## 1. Clone the Repository
 git clone https://github.com/RITIKA-01A/Olympic-data-analysis.git
+
 cd Olympic-data-analysis
 
+---
 
-2. (Optional) Create Virtual Environment
+## 🧱 Step 2: Create a Virtual Environment
+
 python -m venv venv
-# Windows:
+
+## ✅ Step 3: Activate the Virtual Environment
+
+▶️ For Windows
+
 venv\Scripts\activate
-# macOS/Linux:
+
+▶️ For macOS/Linux
+
 source venv/bin/activate
 
+## 📦 Step 4: Install Dependencies
 
-3. Install Dependencies
+pip install -r requirements.txt
+
+## 🖥️ Step 5: Run the Streamlit App
 streamlit run app.py
 
 
-4. Launch the Streamlit App
-streamlit run app.py
+## 📊 Dataset Source
+120 Years of Olympic History – Kaggle
 
+https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
 
-📊 Data Source
-120 Years of Olympic History - Kaggle
+👩‍💻 Author
+Made with 💙 by Ritika 
 
+🔗 GitHub Profile: https://github.com/RITIKA-01A
 
-📄 License
-This project is licensed under the MIT License — feel free to use and share it!
+## 📄 License
 
+This project is licensed under the MIT License.
 
